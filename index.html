@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Sara Shaban">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yummy</title>
+        <link rel="icon" href="img/logo (1).png ">
+        <!--=================Fontawesome============-->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!--=================Bootstrab File=========-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--=================Css File================-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="loading" class="home">
+           <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+           </div>
+        </div>
+        <!--===========Side Navbar===============-->
+        <div class="side-nav min-vh-100 d-flex position-fixed top-0 ">
+            <div class="nav-item d-flex flex-column  justify-content-between bg-dark d-none   max-vh-100 p-5" id="navItem">
+             <div class="side-nav-links ">
+                <ul class="list-unstyled text-white list " id="list">
+                    
+                    <li class="py-2 active" id="search" > Search</li>
+                    <li class="py-2" id="categories" >Catigories</li>
+                    <li class="py-2" id="area" >Area</li>
+                    <li class="py-2" id="ingredients">Ingredients</li>
+                    <li class="py-2" id="contact">Contact Us</li>
+                   
+
+                </ul>
+             </div>
+             <div class="footer">
+                 <div class="icons text-white">
+                     <i class="fa-brands fa-facebook  "></i>
+                     <i class="fa-brands fab fa-twitter "></i>
+                     <i class="fa-solid fa-globe "></i>
+ 
+                </div>
+                <div class="nav-footer mt-2">
+                 <p class="text-white">Copyright Â© 2019 All Rights
+                     Reserved.</p>
+                </div>
+             </div>
+            </div>
+            <div class="nav-head  d-flex flex-column justify-content-between bg-white p-2 ">
+               <img src="img/logo (1).png" alt="logo" width="30px">
+               <i class="fa-solid open-close-icon fa-align-justify fa-2x cursor-pointer d-block" id="bars"></i>  
+               <i class="fa-solid fa-xmark fa-2x d-none cursor-pointer" id="close"></i>
+                <div class="d-flex flex-column justify-content-between">
+                 <i class="fa-solid fa-globe mb-2"></i>
+                 <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            
+            </div>
+                    
+         </div>
+         <section>
+            <div class="container py-5 position-relative">
+                <div class="row g-4" id="data">
+    
+                </div>
+    
+             </div>
+             <div class="d-none justify-content-center align-items-center" id ="innerLoader">
+                <span class="loader " ></span>
+             </div>
+             <i class="fa-solid fa-close d-none" id="closeBtn"></i>
+          
+         </section>
+        
+
+
+           <!--===========js file===========-->
+           <script src="js/bootstrap.bundle.min.js"></script>
+           <!--============jq file===========-->
+           <script src="js/jquery-3.6.3.min.js"></script>
+           <script src="js/index.js"></script>
+    </body>
+
+</html>
